@@ -9,35 +9,35 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Minimalist Architecture Portfolio Design System */
-    --background: 30 8% 97%;
+    --background: 42 100% 96%;
     --foreground: 0 0% 8%;
 
-    --card: 0 0% 99%;
+    --card: 42 50% 98%;
     --card-foreground: 0 0% 8%;
 
-    --popover: 0 0% 99%;
+    --popover: 42 50% 98%;
     --popover-foreground: 0 0% 8%;
 
     --primary: 0 0% 8%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 30 5% 95%;
+    --secondary: 42 30% 94%;
     --secondary-foreground: 0 0% 8%;
 
-    --muted: 30 4% 93%;
+    --muted: 42 25% 92%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 30 8% 85%;
+    --accent: 42 20% 88%;
     --accent-foreground: 0 0% 8%;
 
-    --warm-accent: 35 25% 75%;
+    --warm-accent: 38 35% 75%;
     --warm-accent-foreground: 0 0% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 30 6% 88%;
-    --input: 30 6% 88%;
+    --border: 42 15% 88%;
+    --input: 42 15% 88%;
     --ring: 0 0% 8%;
 
     --radius: 0.5rem;
@@ -111,21 +111,19 @@ All colors MUST be HSL.
 
   /* Custom architectural typography */
   .arch-heading {
-    @apply font-normal tracking-widest uppercase text-xs;
+    @apply font-inter font-medium tracking-widest uppercase text-xs;
     letter-spacing: 0.15em;
-    font-weight: 400;
   }
 
   .arch-title {
-    @apply font-light tracking-wide;
+    @apply font-playfair font-light tracking-wide;
     font-size: clamp(2rem, 8vw, 6rem);
     line-height: 0.9;
     letter-spacing: -0.02em;
-    font-weight: 300;
   }
 
   .arch-subtitle {
-    @apply font-normal tracking-wide text-muted-foreground;
+    @apply font-inter font-normal tracking-wide text-muted-foreground;
     font-size: clamp(1rem, 3vw, 1.5rem);
     letter-spacing: 0.02em;
   }

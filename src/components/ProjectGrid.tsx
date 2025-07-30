@@ -64,12 +64,12 @@ const ProjectGrid = () => {
               
               <div className="space-y-2">
                 <div className="flex justify-between items-start">
-                  <h3 className="text-2xl font-light">{project.title}</h3>
+                  <h3 className="text-2xl font-playfair font-light">{project.title}</h3>
                   <span className="arch-heading text-muted-foreground">{project.year}</span>
                 </div>
                 
                 <p className="arch-heading text-warm-accent">{project.category}</p>
-                <p className="text-muted-foreground leading-relaxed">{project.description}</p>
+                <p className="text-muted-foreground leading-relaxed font-inter">{project.description}</p>
               </div>
             </div>
           ))}
